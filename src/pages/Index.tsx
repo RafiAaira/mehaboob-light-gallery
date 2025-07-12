@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import Navbar from '@/components/Navbar';
+import HomePage from '@/components/HomePage';
+import GalleryPage from '@/components/GalleryPage';
+import ContactPage from '@/components/ContactPage';
 
 const Index = () => {
+  const [activeSection, setActiveSection] = useState('home');
+
+  const handleNavigate = (section: string) => {
+    setActiveSection(section);
+  };
+
+  const renderCurrentSection = () => {
+    switch (activeSection) {
+      case 'home':
+        return <HomePage onNavigate={handleNavigate} />;
+      case 'gallery':
+        return <GalleryPage onNavigate={handleNavigate} />;
+      case 'contact':
+        return <ContactPage />;
+      default:
+        return <HomePage onNavigate={handleNavigate} />;
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar activeSection={activeSection} onNavigate={handleNavigate} />
+      {renderCurrentSection()}
     </div>
   );
 };
