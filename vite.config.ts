@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/mehaboob-light-gallery/', // <-- Add this line
+  base: '/mehaboob-light-gallery/',
 }));
