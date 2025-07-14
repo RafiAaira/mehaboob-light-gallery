@@ -25,7 +25,7 @@ const Navbar = ({ activeSection, onNavigate }: NavbarProps) => {
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-primary-glow rounded-full flex items-center justify-center">
               <Lightbulb className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-lg font-bold text-foreground">Mehaboob L&D</span>
+            <span className="text-lg font-bold text-foreground">Mehaboob Lighting & Decorations</span>
           </div>
 
           {/* Desktop Navigation */}

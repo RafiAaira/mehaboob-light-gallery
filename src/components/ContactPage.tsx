@@ -214,7 +214,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="text-foreground font-medium">+91 98765 43210</p>
+                    <p className="text-foreground font-medium">+91 9989466504</p>
                   </div>
                 </div>
 
@@ -224,7 +224,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="text-foreground font-medium">info@mehaboobld.com</p>
+                    <p className="text-foreground font-medium">mehaboob036@gmail.com</p>
                   </div>
                 </div>
 
@@ -234,7 +234,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Service Area</p>
-                    <p className="text-foreground font-medium">City & Surrounding Areas</p>
+                    <p className="text-foreground font-medium">Nadigadda & Surrounding Areas</p>
                   </div>
                 </div>
               </div>
@@ -245,11 +245,11 @@ const ContactPage = () => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Monday - Friday</span>
-                  <span className="text-foreground font-medium">9:00 AM - 7:00 PM</span>
+                  <span className="text-foreground font-medium">8:00 AM - 8:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Saturday</span>
-                  <span className="text-foreground font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="text-foreground font-medium">9:00 AM - 7:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Sunday</span>

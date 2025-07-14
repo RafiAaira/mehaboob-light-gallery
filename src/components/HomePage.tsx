@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Sparkles, Star, Award } from 'lucide-react';
-import mehaboobProfile from '@/assets/mehaboob-profile.jpg';
+import mehaboobProfile from '@/assets/mehaboob-profile-1.jpg';
 
 interface HomePageProps {
   onNavigate: (section: string) => void;
